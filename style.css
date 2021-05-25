@@ -1,0 +1,109 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Inria Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url("foto/car1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    background-color: rgba(39,58,93, 0.5);
+    height: 60px;
+    position: fixed;
+}
+section{
+    height:1000px;
+}
+ul{
+    width: 35%;
+    height:90px;
+    margin:0 auto;
+    text-align: center;
+       
+}
+ul li:hover{
+    top:20px;
+}
+li{ 
+   display: inline-block;
+    width: 100px;
+    height: 60px;
+    border:1px solid #07B5F4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #07B5F4;
+    position: relative;
+    top:0;
+    transition: 1s;
+ 
+}
+li a{
+    display: block;
+    padding: 18%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(7, 181, 244, 0.2);
+}
+section{
+    text-align: center;
+}
+.text, .img{
+    width: 35%;
+    height: 500px;
+    display:inline-block;
+    vertical-align: bottom;
+    margin:50px;
+    
+}
+.text{
+    overflow:hidden;
+}
+.line{
+    width: 70px;
+    border-bottom: 2px solid #1171e8;
+    margin-bottom:20px;
+}
+.text h2{
+    text-align: left;
+    margin: 10px 0;
+}
+.text p{
+    text-align: justify;
+}
+foto{
+    background-image: url("foto/ferrari.png");
+}
+foto2{
+    background-image: url("foto/car3.jpg");
+}
+.foto1, .foto2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: lightgrey;
+    text-align: center;
+}
+footer p{
+    padding:  50px;
+    margin-top: 50px;
+}
